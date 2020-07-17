@@ -2,12 +2,12 @@ body {
   font-family: sans-serif;
   margin: 0;
   padding: 0;
+  background-color: whitesmoke;
 }
 
 header {
-  background: yellow;
+  background: white;
 }
-
 
 h1 {
   color: #861d86;
@@ -16,7 +16,6 @@ h1 {
 }
 
 div {
-  border: solid 1px;
   padding: 10px;
 }
 
@@ -36,4 +35,10 @@ p {
   display: grid;
   margin: 5% 10% 5% 10%;
   row-gap: 20px;
+}
+
+.box {
+  background-color: white;
+  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.4) inset;
+  border-radius: 5px;
 }
