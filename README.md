@@ -16,7 +16,12 @@
 
 - b) O formato de cor que começa com o caractere _#_ indica que aquela cor está escrita em código hexadecimal. Desde modo, os valores podem varia de 0 a f, sendo cada posição representada da seguinte forma: _#RRGGBB_ que correspondem a Red - Vermelho, Green - Verde, Blue - Azul. Como exemplo, o código hexadecimal _#00ff00_ represente a cor verde, pois os dois caracteres que representa tanto vermelho como azul estão em opacidade 0.
 
-## Aula 03 - Ecercício 02
+## Aula 03 - Exercício 01
+
+3.
+-d) Com o aumento da fonte através do _fonte-size_ pode-se observar também o aumento das margens entre os parágrafos. Com o tamanho padrão de 14px, a margem também era 14 px. Como o aumento da fonte para 23px, a margem aumentou para 22px.
+
+## Aula 03 - Exercício 02
 
 1.
 -b) Mostrará uma mensagem _Cannot GET /hobbies.html_, pois o site está tentando enviar uma requisição via método GET para o site _hobbies.html_, no entanto, no momento o site não existe. Se abrirmos o console javascript do browser veremos uma mensagem informando que houve _falha ao carregar recursos - O servidor respondeu com o status 404 (Fot found)_. Esse status é informado quando tenta-se uma requisição, mas não se obtém resposta por parte do servidor para aquela requisição.

@@ -92,6 +92,10 @@ strong.instagram {
   transition: 330ms;
 }
 
+h1#title-hobbies {
+  color: rgba(0, 0, 0, 0.8);
+}
+
 .button:hover {
   background-color: darkgoldenrod;
 }
@@ -105,6 +109,12 @@ strong.instagram {
 
 .icone:hover {
   transform: scale(1.3) rotate(360deg);
+}
+
+.destaque {
+  background-color: yellow;
+  color: #fd1d1d;
+  font-size: 22px;
 }
 
 .galeria {
