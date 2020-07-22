@@ -1,8 +1,16 @@
+* {
+}
+
 body {
   font-family: sans-serif;
   margin: 0;
   padding: 0;
-  background-color: whitesmoke;
+  background-image: url(../img/background.png);
+  background-attachment: fixed;
+}
+
+hr {
+  width: 100%;
 }
 
 header {
@@ -40,9 +48,13 @@ li {
   text-align: justify;
 }
 
+.nav {
+  display: inline-flexbox;
+}
+
 .container {
   display: grid;
-  margin: 5% 15% 5% 15%;
+  margin: 5px 15% 5% 15%;
   row-gap: 20px;
 }
 
@@ -69,6 +81,19 @@ strong.instagram {
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+.button {
+  background-color: white;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+  padding: 5px;
+  transition: 330ms;
+}
+
+.button:hover {
+  background-color: darkgoldenrod;
 }
 
 .icone {
